@@ -1,0 +1,30 @@
+.menu {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5em;
+    border: 2px solid rgb(151, 151, 255);
+    padding: 1%;
+    border-radius: 15px;
+    background: rgb(216, 216, 255);
+    margin-right: 5px;
+    float: left;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
+}
+
+.menu a:hover {
+    color: white;
+    background: blue;
+}
+
+ul {
+    list-style-type: none;
+}

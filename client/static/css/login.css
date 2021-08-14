@@ -1,0 +1,33 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+input {
+    margin: 2%;
+    border: solid 1px cornflowerblue;
+    padding: 3%;
+}
+
+input[type="submit"] {
+    background: cornflowerblue;
+    padding: 1%;
+    outline: none;
+    border: none;
+    box-shadow: 3px 4px 5px rgb(0, 0, 0, 0.5);
+    font-size: 1.25em;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+.menu {
+    margin: 0;
+}
