@@ -31,3 +31,23 @@ h1 {
 .menu {
     margin: 0;
 }
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    cursor: pointer;
+    background: rgb(66, 66, 163);
+    color: white;
+    padding: 1%;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
