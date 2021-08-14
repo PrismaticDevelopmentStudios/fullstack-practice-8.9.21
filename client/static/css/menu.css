@@ -1,9 +1,16 @@
+.container {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
 .menu {
     list-style-type: none;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
 
 .menu a {
