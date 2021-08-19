@@ -19,7 +19,7 @@
     font-weight: 600;
     font-size: 1.5em;
     border: 2px solid rgb(151, 151, 255);
-    padding: 1%;
+    padding: 10%;
     border-radius: 15px;
     background: rgb(216, 216, 255);
     margin-right: 5px;
@@ -30,8 +30,19 @@
 .menu a:hover {
     color: white;
     background: blue;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
+    /* padding: 12%;
+    font-size: 1.25em; */
 }
 
 ul {
     list-style-type: none;
+}
+
+li a {
+    margin-bottom: 12%;
+}
+
+#out {
+    font-size: 1.35em;
 }

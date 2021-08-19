@@ -13,6 +13,11 @@ input {
     padding: 3%;
 }
 
+input:hover {
+    background: rgb(245, 245, 245);
+    box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.5);
+}
+
 input[type="submit"] {
     background: cornflowerblue;
     padding: 1%;
@@ -22,6 +27,12 @@ input[type="submit"] {
     font-size: 1.25em;
     color: white;
     cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(146, 179, 241);
+    color: rgb(241, 241, 241);
+    box-shadow: 1px 1px 6px rgb(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -49,5 +60,12 @@ h1 {
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
     font-weight: 600;
     font-size: 1.5em;
-    margin-top: 2%;
+    margin-top: 15%;
+    border-radius: 15px;
+}
+
+#back:hover {
+    box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.5);
+    color: rgb(240, 240, 240);
+    background: rgb(107, 107, 163);
 }

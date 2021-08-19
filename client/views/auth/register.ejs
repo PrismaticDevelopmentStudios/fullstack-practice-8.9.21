@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SiteName Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/main.css">
+        <link rel="stylesheet" href="../../css/login.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <!-- <script src="../js/login"></script> -->
+    </head>
+    <body>
+        <div>
+            <form class="login" action="/register" method="POST" autocomplete="on">
+              <h1 class="center">Register</h1>
+              <input
+              type="text"
+              placeholder="Choose Your Username" 
+              required
+              autocomplete="on"
+              name="name"
+            />
+              <input
+                type="email"
+                placeholder="Valid Email Address"
+                required
+                autocomplete="on"
+                name="email"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                autocomplete="on"
+                required
+                name="password"
+              />
+              <input type="submit" placeholder="Login" />
+            </form>
+            <div class="btn">
+              <button id="back" onclick="history.back()">Back</button>
+            </div>
+          </div>
+    </body>
+</html>

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(187, 203, 255);
+    background: rgb(187, 205, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,4 +21,48 @@ h5 {
 iframe {
     border: none;
     outline: none;
+}
+
+.left {
+    float: left;
+}
+
+.content {
+    margin-top: 2%;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 2%;
+}
+
+.in {
+    color: green;
+    font-size: 3em;
+}
+
+.out,
+.red {
+    color: red;
+    font-size: 3em;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.p {
+    text-indent: 3em;
+    padding-left: 12%;
+    padding-right: 6%;
+}
+
+.tech {
+    width: 30%;
+    margin: 3.5%;
 }
